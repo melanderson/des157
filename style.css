@@ -21,9 +21,6 @@ a {
   padding-right: 5px;
 }
 
-a: hover {
-  background-color: #477890;
-}
 
 
 /* my classes */
@@ -57,7 +54,5 @@ a: hover {
 /* my id's */
 
 #mySketch {
-  width: 800px;
-  height: 250px;
   padding: 10px;
 }
