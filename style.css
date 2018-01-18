@@ -21,7 +21,11 @@ a {
   padding-right: 5px;
 }
 
+/* my id's */
 
+#mySketch {
+  padding: 10px;
+}
 
 /* my classes */
 
@@ -35,8 +39,15 @@ a {
   width: 45%;
 }
 
+.floatWhole {
+  float: left;
+  padding: 20px;
+  width: 90%;
+}
+
 .footer {
   position: fixed;
+  clear: both;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -50,9 +61,7 @@ a {
   margin: auto;
 }
 
-
-/* my id's */
-
-#mySketch {
-  padding: 10px;
+.noList {
+  list-style-type: none;
+  padding: 1em;
 }
