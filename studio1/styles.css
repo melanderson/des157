@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  background-image: url(https://vignette.wikia.nocookie.net/veggietalesitsforthekids/images/f/ff/Larrytuba2.jpg/revision/latest?cb=20130930152212);
+}
+
+h1, h2{
+  font-family:"futura", sans-serif;
+  font-style: oblique;
+  font-display: block;
+  text-align: center;
+}
+
+label {
+  width: 2em;
+  text-align: right;
+  display: inline-block;
+  padding-right: 3%;
+}
+
+/* Textbox color when clicked */
+input[type="text"]:focus {
+  border: 4px yellowgreen solid;
+  background-color: antiquewhite;
+  color: black;
+}
+
+div {
+  margin: 2%;
+}
+
+article {
+  position: relative;
+  top: -8px;
+  width: 80%;
+  min-width: 700px;
+  max-width: 800px;
+  border-radius: 18px;
+  padding: 24px;
+  color: antiquewhite;
+  background-color: #222;
+  margin: auto;
+}
+
+footer {
+  padding: 1em;
+}
+
+#smallfont {
+  font-size: 10px;
+}
+
+.footerBackground {
+  border-radius: 1em;
+  background-color: antiquewhite;
+  text-align: right;
+}
+
+.titleHome {
+  text-decoration: none;
+  color: #000;
+}
