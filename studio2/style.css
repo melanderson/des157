@@ -1,0 +1,232 @@
+/*Stylizing content of page*/
+
+body {
+    width: 100%;
+    display: block;
+    margin: 10px;
+}
+
+div {
+    padding: 5px;
+    margin: auto;
+}
+
+div p {
+    background-color: #000000;
+    border-radius: 3px;
+    opacity: .6;
+    color: #ffffff;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background-color: skyblue;
+}
+
+
+/*Centering my header and close#'s'*/
+
+.center {
+    text-align: center;
+}
+
+
+/*Align my images to the center*/
+
+#person {
+    position: relative;
+    width: 250px;
+    align-items: center;
+    margin: auto;
+}
+
+#person img {
+    position: absolute;
+}
+
+
+/*adjusting my character into position*/
+
+#character {
+    margin: auto;
+    width: 200px;
+    top: 3px;
+}
+
+
+/*adjusting all the other items into position*/
+
+#hat {
+    width: 124px;
+    left: 26%;
+    display: block;
+    opacity: 0;
+}
+
+#headphones {
+    width: 138px;
+    left: 22%;
+    display: block;
+    opacity: 0;
+    top: 8px;
+}
+
+#necklace {
+    width: 105px;
+    left: 30.5%;
+    top: 141px;
+    display: block;
+    opacity: 0;
+}
+
+#keychain {
+    width: 60px;
+    left: 8%;
+    top: 251px;
+    display: block;
+    opacity: 0;
+}
+
+#hairties {
+    width: 38px;
+    left: 37%;
+    top: 300px;
+    display: block;
+    opacity: 0;
+}
+
+
+/* Mobile screen placement of text */
+
+@media screen and (max-width: 768px) {
+    /* Hat text position */
+    #hatInfo {
+        position: absolute;
+        top: 480px;
+        opacity: 0;
+        width: 90%;
+    }
+    /* Headphones text position */
+    #headphonesInfo {
+        position: absolute;
+        top: 630px;
+        opacity: 0;
+        width: 90%;
+    }
+    /* Necklace text position */
+    #necklaceInfo {
+        position: absolute;
+        top: 910px;
+        opacity: 0;
+        width: 90%;
+    }
+    /* keychain text position */
+    #keychainInfo {
+        position: absolute;
+        top: 1100px;
+        opacity: 0;
+        width: 90%;
+    }
+    /* hairties text position */
+    #hairtiesInfo {
+        position: absolute;
+        top: 1370px;
+        opacity: 0;
+        width: 90%;
+    }
+}
+
+/* Ipad size screen placement of text */
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    /* Hat text position */
+    #hatInfo {
+        position: absolute;
+        top: 80px;
+        left: 10%;
+        opacity: 0;
+        width: 25%;
+    }
+    /* Headphones text position */
+    #headphonesInfo {
+        position: absolute;
+        top: 80px;
+        opacity: 0;
+        right: 10%;
+        width: 25%;
+    }
+    /* Necklace text position */
+    #necklaceInfo {
+        position: absolute;
+        top: 500px;
+        opacity: 0;
+        width: 25%;
+        left: 35%;
+    }
+    /* keychain text position */
+    #keychainInfo {
+        position: absolute;
+        top: 320px;
+        left: 5%;
+        opacity: 0;
+        width: 25%;
+    }
+    /* hairties text position */
+    #hairtiesInfo {
+        position: absolute;
+        top: 540px;
+        right: 5%;
+        opacity: 0;
+        width: 25%;
+    }
+}
+
+  /* Desktop size with a bit of rearrangement */
+@media screen and (min-width: 1024px) {
+  /* Hat text position */
+  #hatInfo {
+      position: absolute;
+      top: 80px;
+      left: 10%;
+      opacity: 0;
+      width: 25%;
+  }
+  /* Headphones text position */
+  #headphonesInfo {
+      position: absolute;
+      top: 80px;
+      opacity: 0;
+      right: 10%;
+      width: 25%;
+  }
+  /* Necklace text position */
+  #necklaceInfo {
+      position: absolute;
+      top: 410px;
+      opacity: 0;
+      width: 25%;
+      right: 5%;
+
+  }
+  /* keychain text position */
+  #keychainInfo {
+      position: absolute;
+      top: 300px;
+      left: 5%;
+      opacity: 0;
+      width: 25%;
+  }
+  /* hairties text position */
+  #hairtiesInfo {
+      position: absolute;
+      top: 500px;
+      left: 35%;
+      opacity: 0;
+      width: 25%;
+  }
+}
