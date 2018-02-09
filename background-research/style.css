@@ -1,0 +1,25 @@
+/*Aligning Elements in Body*/
+
+body {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+article {
+  margin: auto;
+}
+
+img {
+  width: 40%;
+}
+
+footer {
+  text-align: center;
+}
+
+/*Aligning images*/
+
+#positioning {
+  position: relative;
+  left: 10%;
+}
