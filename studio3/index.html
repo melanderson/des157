@@ -10,47 +10,38 @@
     <!--
     <script src=“Snap.svg-0.3.0/dist/snap.svg-min.js”></script>
     -->
-    <title> Studio 3 </title>
+    <title> Studio 3: Animating </title>
 </head>
 
 <body>
-    <h1>Studio 3: Animating? </h1>
     <article>
-        <img id="myImg" src="chocoPenguins.jpg" alt="Popcorn Chocolate Penguins!">
-        <div id="myModal" class="modal">
-            <span class="close"></span>
-            <img id="img01" class="modal-content">
-            <div id="caption"></div>
-        </div>
-
-        <img id="myImg2" src="ingredients.jpg" alt="Ingrediants used to make the Chocolate Penguins.">
-        <div id="myModal2" class="modal">
-            <span class="close"></span>
-            <img id="img02" class="modal-content">
-            <div id="caption2"></div>
-        </div>
-
-        <img id="myImg3" src="flan.jpg" alt="A giant flan I made with my mom.">
-        <div id="myModal3" class="modal">
-            <span class="close"></span>
-            <img id="img03" class="modal-content">
-            <div id="caption3"></div>
-        </div>
+        <h1> Studio 3: Animating </h1>
+        <div class="cupcake"></div>
     </article>
-    <!-- SVG code for my image-->
-    <object id="cupcake-svg" width="400" height="300" type="image/svg+xml" data="cupcakeImg.svg"></object>
-    <p>All I wanted to do was to animate a cupcake... Unfortunately I couldn't seem to load my library, and Snap.svg was just not working. I got my svg file in but still couldn't animate it... </p>
-    <footer>
+    <article>
+        <h2>Drag and Drop</h2>
+        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+             <img src="images/wholeCupcake.png" draggable="true" ondragstart="drag(event)" id="drag1" width="112" height="192">
+        </div>
+
+        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    </article>
+    <article>
+      <p>Put the cupcake on the plate.</p>
+    </article>
+
+    <footer class="footer">
         <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
 
         <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
 
-        <a href="https://github.com/adobe-webplatform/Snap.svg"> Snap.svg</a>
+        <a href="http://blog.teamtreehouse.com/css-sprite-sheet-animations-steps"> CSS Steps() </a>
+
+        <a href="https://www.w3schools.com/html/html5_draganddrop.asp"> Drag and Drop </a>
 
         <a href="../index.html">Home</a>
     </footer>
-
-
 </body>
+
 
 </html>
