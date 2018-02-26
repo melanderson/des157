@@ -44,7 +44,8 @@ article{
   height: 192px;
   margin: 2% auto;
   background: url(images/cupcake.png) left center;
-  animation: play .6s steps(7) infinite paused;
+  animation: play .6s steps(7) infinite;
+  animation-play-state: paused;
 }
 
 /*allows animation when mouse hovers over*/
@@ -90,7 +91,4 @@ article{
     padding: 14px;
     border-bottom: 0px;
   }
-  /* center section */
-  section {
-    text-align: center;
-  }
+}
