@@ -1,0 +1,36 @@
+/*Aligning Elements in Body*/
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  text-align: center;
+}
+
+article {
+  margin: auto;
+}
+
+img {
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+}
+
+/*Aligning images*/
+
+#positioning {
+  position: relative;
+  left: 10%;
+}
+
+@media only screen and (min-width 768px) {
+  body {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
