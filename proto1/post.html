@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>DES 157 Portal </title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="logo" href="index.html"><img src="images/siteLogo.png"> </a>
+        <a class="nav" href="index.html"> Home </a>
+        <a class="nav" href="vote.html"> Vote on Submissions </a>
+        <a class="nav" href="post.html"> Submit a Recipe </a>
+        <a class="nav" href="about.html"> About </a>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+    <header id="header">
+
+        <div id="mySketch"></div>
+    </header>
+
+    <form>
+        <h2>Submit a Recipe</h2>
+        <div>
+        <label for="LetterTitle" class="form__label">Add a title:</label>
+        <input name="data[Letter][title]" placeholder="Add your title here..." class="form__input  js-input-title" autocomplete="off" maxlength="255" id="LetterTitle" required="required" type="text">
+        </div>
+        <label for="LetterIngredients" class="form__label">Ingredients:</label>
+        <input name="data[Letter][title]" placeholder="Ingredient here!" class="form__input  js-input-title" autocomplete="off" maxlength="255" id="LetterIngredients" required="required" type="text">
+        </div>
+        <div>
+        <label for="LetterRecipe" class="form__label">Recipe instructions:</label>
+        <textarea name="data[Letter][body]" placeholder="Write your recipe!" class="form__textarea form__textarea--letter  js-input-body" cols="30" rows="6" id="LetterBody" required="required" style="overflow: hidden; overflow-wrap: break-word; height: 180px;"></textarea>
+        </div>
+        <div>
+          <input type="submit" class="submit_button" value="submit" />
+        </div>
+    </form>
+
+    <article>
+        <!--Spacing footer issues solved by adding junk in between-->
+        <p class="hidden">+++++++++++++++++++++++++++++++++++</p>
+    </article>
+
+
+    <!-- Fixed Footer with email -->
+    <footer class="footer">
+
+        <a href="../index.html">Melissa's Homepage</a>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </footer>
+
+
+</body>
+
+</html>
