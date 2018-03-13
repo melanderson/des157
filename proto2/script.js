@@ -23,8 +23,8 @@ ref.push(data);
 
 //create banner
 function setup() {
-    var myCanvas = createCanvas(650, 185); // To place my banner in the header //
-    myCanvas.parent('mySketch');
+    //var myCanvas = createCanvas(650, 185); // To place my banner in the header //
+    //myCanvas.parent('mySketch');
 
 
     // Initialize Firebase
