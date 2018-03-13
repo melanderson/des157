@@ -44,7 +44,7 @@ function setup() {
 //function mouseClicked() {
 //image(img,mouseX,mouseY,50,50)
 //}
-imgClickAndChange.onclick = function(){
+imgClickAndChange.onclick = function() {
     if(counter == 0){
         document.getElementById("imgClickAndChange").src = "images/bannerImg01.png";
         counter++;

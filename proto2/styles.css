@@ -10,7 +10,7 @@ article {
     margin-right: 10%;
 }
 
-h3, article p {
+h3,h5, article p {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -53,6 +53,29 @@ a .logo:hover {
     margin-left: 15%;
 
 }
+
+//////////
+/*Animated cupcake*/
+.cupcake  {
+  width: 112px;
+  height: 192px;
+  margin: 2% auto;
+  background: url(images/cupcake.png) left center;
+  animation: play .6s steps(7) infinite;
+  animation-play-state: paused;
+}
+
+/*allows animation when mouse hovers over*/
+.cupcake:hover {
+  animation-play-state: running;
+}
+
+/*play animation at sprite sheet width*/
+@keyframes play {
+    100% { background-position: -784px; }
+}
+////////
+
 .nav {
     display: inline;
     text-decoration: none;
