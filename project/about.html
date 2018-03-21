@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title> DES 157 Portal </title>
+
+    <!--Allow for P5-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+
+    <!--FireShare Storage/DataBase/App Server-->
+    <!--<script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>-->
+
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="topnav">
+        <a class="nav" href="index.html"> Home </a>
+        <a class="nav" href="vote.html"> Vote on Submissions </a>
+        <a class="nav" href="post.html"> Submit a Recipe </a>
+        <a class="nav" href="about.html"> About </a>
+        <!--<div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>-->
+    </nav>
+    <header>
+        <div id="mySketch">
+          <img src="images/bannerImg01.png" id="imgClickAndChange" onclick="changeImage()" />
+          <p>Click to play with the banner!</p>
+        </div>
+    </header>
+
+    <article>
+        <h2>About Page!</h2>
+
+    <p>Hi! Welcome to Recipe Share! Where you can post and share any recipe you wish, or just read some of the havok on this site. I created it with the intention of just having a site to share food recipes, however, without a system of signing in, that would probably be hard to control. I hate having to sign in on websites anyway, so no biggie. You can just post whatever recipes you've got in mind. It could be a recipe for disaster. A love potion? Go for it! Have a special recipe from the anarchist cookbook? Go right ahead. I guess this is just a site where you can post just about anything (except videos) as long as you've got the ingredients for it. And you'll stay anonymous on site, because there is no logging in! It's a broken site anyway, but try to have some fun with it, even though the banner doesn't work and the posting system isn't in place yet. Sorry about that. Can I placate you with an animated cupcake? </p>
+
+    </article>
+
+    <article>
+      <h3> Cupcake? </h3>
+        <div class="cupcake"></div>
+        <p class="smallfont"> Hover over the cupcake to animate it </p>
+    </article>
+
+    <article>
+      <p>You're bored? Oh well, there's not much I can do about that. Really, I need some advice on how to set up a webserver database. I'm trying to use firebase right now, so if you could help me out in figuring what problems i've got in my code, that would be useful. I mean extremely useful. I spent all of my time trying to figure out what's wrong and still can't fix anything because I'm just confused. Oh well. </p>
+    </article>
+
+
+    <!-- Fixed Footer with email -->
+    <footer class="footer">
+      <a class="logo" href="index.html"><img src="images/siteLogo.png"> </a>
+        <a href="../index.html">Melissa's Homepage |</a>
+        <a href="https://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">| Valid CSS</a>
+    </footer>
+  </body>
+
+  </html>
